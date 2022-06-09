@@ -101,4 +101,8 @@ const getReffCode = (reffLink) => new Promise((resolve, reject) => {
         };
     };
 
+    console.log(`[ ${moment().format("HH:mm:ss")} ] `, colors.FgYellow,
+                `Added ${successNum} Credit to Your Account!`,
+                colors.Reset);
+
 })()
